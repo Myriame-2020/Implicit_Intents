@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/http_developer_android_com" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openWebsite"
+        android:text="@string/open_website" />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/golden_gate_bridge" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="openLocation"
+        android:text="@string/open_location" />
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twas_brillig_and_the_slithy_toves" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="shareText"
+        android:text="@string/share_this_text" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAKE A PICTURE !"
+        android:onClick="OpenCamera"/>
+
+</LinearLayout>
